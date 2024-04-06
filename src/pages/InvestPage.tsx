@@ -1,23 +1,5 @@
 import React from "react";
 import { Box, Paper, Stack, Typography } from "@mui/material";
-import { Image } from "@mui/icons-material";
-// import abinbev from "../assets/abinbev.jpg";
-// import ambev from "../assets/ambev.png";
-// import estee from "../assets/estee.png";
-// import imperial_brands from "../assets/imperial_brands.png";
-// import pfizer from "../assets/pfizer.jpg";
-// import polaris from "../assets/polaris.png";
-// import reckitt from "../assets/reckitt.png";
-// import roche from "../assets/roche.jpg";
-// import tobacco from "../assets/tobacco.png";
-// import yum_china from "../assets/yum_china.png";
-
-/**
- * Если кто-то читает этот код,
- * в чем я очень сильно сомневаюсь,
- * знай, что это приложение это полный пиздец.
- * Да и ты сам долбаеб еще тот. Иди нахуй короч :)
- */
 
 export const InvestPage: React.FC = () => {
   return (
