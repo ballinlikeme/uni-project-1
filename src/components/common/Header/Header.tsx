@@ -1,8 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import AdbIcon from "@mui/icons-material/Adb";
 import MenuIcon from "@mui/icons-material/Menu";
-import { AppRoutes } from "../../../lib/router/";
 import {
   Container,
   Typography,
@@ -16,11 +14,6 @@ import {
   Tooltip,
 } from "@mui/material";
 
-const pages = [
-  { label: "Home", path: AppRoutes.PERCENTAGE },
-  { label: "Main", path: AppRoutes.MAIN },
-  { label: "Investments", path: AppRoutes.INVEST },
-];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 export const Header: React.FC = () => {
