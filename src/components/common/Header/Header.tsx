@@ -10,7 +10,6 @@ import {
   Toolbar,
   Avatar,
   Box,
-  Button,
   IconButton,
   Menu,
   MenuItem,
@@ -99,13 +98,13 @@ export const Header: React.FC = () => {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page) => (
+              {/* {pages.map((page) => (
                 <Link to={page.path} style={{ textDecoration: "none" }}>
                   <MenuItem key={page.path} onClick={handleCloseNavMenu}>
                     <Typography textAlign="center">{page.label}</Typography>
                   </MenuItem>
                 </Link>
-              ))}
+              ))} */}
             </Menu>
           </Box>
           <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
@@ -128,7 +127,7 @@ export const Header: React.FC = () => {
             PVF
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
+            {/* {pages.map((page) => (
               <Link to={page.path} style={{ textDecoration: "none" }}>
                 <Button
                   key={page.path}
@@ -138,7 +137,7 @@ export const Header: React.FC = () => {
                   {page.label}
                 </Button>
               </Link>
-            ))}
+            ))} */}
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
